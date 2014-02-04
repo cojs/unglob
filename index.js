@@ -1,5 +1,3 @@
-try {
-  module.exports = require('./lib')
-} catch (err) {
-  module.exports = require('./build')
-}
+module.exports = require('generator-supported')
+  ? require('./lib')
+  : require('./build');
