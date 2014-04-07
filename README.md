@@ -1,4 +1,4 @@
-# unglob [![Build Status](https://travis-ci.org/jonathanong/unglob.png)](https://travis-ci.org/jonathanong/unglob)
+# unglob [![Build Status](https://travis-ci.org/cojs/unglob.svg?branch=master)](https://travis-ci.org/cojs/unglob)
 
 Unglob a list of files/globs based on a directory (where fs calls will be made) or another list of files.
 

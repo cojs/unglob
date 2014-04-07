@@ -9,31 +9,21 @@
     "twitter": "https://twitter.com/jongleberry"
   },
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jonathanong/unglob.git"
-  },
-  "bugs": {
-    "mail": "me@jongleberry.com",
-    "url": "https://github.com/jonathanong/unglob/issues"
-  },
+  "repository": "cojs/unglob",
   "dependencies": {
     "generator-supported": "~0.0.1",
     "glob": "~3.2.8",
     "minimatch": "~0.2.14"
   },
   "devDependencies": {
-    "gnode": "*",
-    "regenerator": "~0.3.9",
-    "co": "*",
-    "mocha": "*",
-    "should": "*"
+    "gnode": "0",
+    "regenerator": "0",
+    "co": "3",
+    "mocha": "1",
+    "should": "3"
   },
   "scripts": {
     "test": "NODE=gnode make test",
     "prepublish": "make clean build"
-  },
-  "engines": {
-    "node": ">= 0.11.9"
   }
 }
