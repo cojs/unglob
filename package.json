@@ -12,15 +12,15 @@
   "repository": "cojs/unglob",
   "dependencies": {
     "generator-supported": "~0.0.1",
-    "glob": "~3.2.8",
-    "minimatch": "~0.2.14"
+    "glob": "~6.0.3",
+    "minimatch": "~3.0.0"
   },
   "devDependencies": {
     "gnode": "0",
     "regenerator": "0",
-    "co": "3",
-    "mocha": "1",
-    "should": "3"
+    "co": "4.6.0",
+    "mocha": "2.3.4",
+    "should": "8.0.2"
   },
   "scripts": {
     "test": "NODE=gnode make test",
