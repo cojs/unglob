@@ -19,7 +19,7 @@
     "gnode": "0",
     "regenerator": "0",
     "co": "3",
-    "mocha": "1",
+    "mocha": "2.4.1",
     "should": "3"
   },
   "scripts": {
