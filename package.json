@@ -12,8 +12,8 @@
   "repository": "cojs/unglob",
   "dependencies": {
     "generator-supported": "~0.0.1",
-    "glob": "~3.2.8",
-    "minimatch": "~0.2.14"
+    "glob": "~5.0.15",
+    "minimatch": "~3.0.5"
   },
   "devDependencies": {
     "gnode": "0",
